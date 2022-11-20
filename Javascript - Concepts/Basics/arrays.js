@@ -17,7 +17,7 @@ console.log(b[3][3][0]);
 const c = Array.of("X","Y","Z",9,8,7);
 console.log(c);
 
-// Lenar arreglos con un valor
+// Llenar arreglos con un valor
 const d = Array(20).fill(false)
 console.log(d);
 
