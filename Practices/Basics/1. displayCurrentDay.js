@@ -1,6 +1,6 @@
 'use strict'
 
-// Write a JavaScript program to display the current day and time
+// 1. Write a JavaScript program to display the current day and time
 const days = {
     1 : "Monday",
     2 : "Tuesday",

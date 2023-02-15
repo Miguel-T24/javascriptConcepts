@@ -1,6 +1,6 @@
 'use strict'
 
-// write a javascript program to get the current date
+// 3. write a javascript program to get the current date
 // format mm-dd-yyyy, mm/dd/yyyy or dd-mm-yyyy, dd/mm/yyyy
 
 let day = new Date();
