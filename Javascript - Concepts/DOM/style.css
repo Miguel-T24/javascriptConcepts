@@ -10,3 +10,8 @@ h1{
     background: black;
     color: bisque;
 }
+
+.list   {
+    text-align: center;
+    padding: 5px;
+}
