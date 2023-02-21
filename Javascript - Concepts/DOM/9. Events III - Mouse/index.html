@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events III</title>
+    <style>
+        .box {
+            background-color: red ;
+            border: none;
+            margin: 2rem;
+            padding: 2em;
+            color: white;
+            font-size: 40px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mouse Events</h1>
+    <div class="box" onclick="alertEvent()">On Click</div>
+
+    <div class="box" oncontextmenu="onContextMenufn()">On context Menu</div>
+
+    <div class="box" ondblclick="onDobleClickfn()">On Doble Click</div>
+
+    <div class="box" onmousedown="onMouseDownfn()">On Mouse Down</div>
+
+    <div class="box" onmouseenter="onMouseEnterfn()">On Mouse Enter</div>
+
+    <div class="box" onmouseleave="onMouseLeavefn()">On Mouse Leave</div>
+
+    <div class="box" onmousemove="onMouseMovefn()">On mouse Move</div>
+
+    <div class="box" onmouseup="onMouseUpfn()">On mouse up</div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
