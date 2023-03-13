@@ -3,4 +3,4 @@
 const array = ['apple', 'orange' , 'pear'];
 array.shift()
 
-console.log(array);
+console.log(array); //['orange' , 'pear']

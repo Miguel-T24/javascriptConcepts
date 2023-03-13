@@ -2,6 +2,6 @@
 
 const array = ['apple' , 'orange', 'pear'];
 
-console.log(array);
-console.log(array.push('banana'));
-console.log(array);
+console.log(array); //['apple' , 'orange', 'pear']
+array.push('banana')
+console.log(array); // ['apple' , 'orange', 'pear', 'banana']
