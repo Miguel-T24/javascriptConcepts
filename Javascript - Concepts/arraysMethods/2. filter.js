@@ -1,4 +1,4 @@
-// 2. Filter(): Recorre el arrya y retirna un nuevo array con auellos elementos que pase una determinada condicion
+// 2. Filter(): Recorre el array y retorna un nuevo array con aquellos elementos que pase una determinada condicion
 
 // const arrayResult = array.map((el, index, array) => {})
 
