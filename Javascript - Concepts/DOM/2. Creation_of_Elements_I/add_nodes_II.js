@@ -38,5 +38,4 @@ father.insertAdjacentElement("beforeend", nodeBeforeEnd);
 const nodeAfterEnd = document.createElement("p");
 const textAfterEnd = document.createTextNode("After End");
 nodeAfterEnd.appendChild(textAfterEnd);
-
 father.insertAdjacentElement("afterend", nodeAfterEnd);

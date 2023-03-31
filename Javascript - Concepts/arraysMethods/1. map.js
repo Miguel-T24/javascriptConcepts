@@ -1,6 +1,6 @@
 'use strict'
 
-// 1. Map: PErmite recorrer el array y modificar los elementos presentes en él, retornando un nuevo array con la misma longitud que el original
+// 1. Map: Permite recorrer el array y modificar los elementos presentes en él, retornando un nuevo array con la misma longitud que el original
 
 // array.map((element, index, array) => {operation})
 
