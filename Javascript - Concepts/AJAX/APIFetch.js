@@ -20,5 +20,5 @@
         $fetch.appendChild($fragment);
     })
     .catch(err => console.log("Este es el catch:",err))
-    .finally(() => console.log(`Este es el Finally`));
+    .finally(() => console.log(`Este es el Finally de API Fetch`));
 })();
