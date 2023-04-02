@@ -6,7 +6,7 @@
 
     async function getData(){
         try{
-            let res = await fetch("https://jsonplaceholder.typicode.com/user"),
+            let res = await fetch("https://jsonplaceholder.typicode.com/users"),
             json = await res.json();
             // console.log(res);
             // console.log(json);
