@@ -30,7 +30,7 @@
         }
     });
 
-    xhr.open("GET", "https://jsonplaceholder.typicode.com/user");
+    xhr.open("GET", "https://jsonplaceholder.typicode.com/users");
 
     xhr.send();
 })();
