@@ -16,7 +16,6 @@
             $li.textContent = `${item.name} -- ${item.email} --- ${item.phone}`;
             $fragment.appendChild($li);
         });
-
         $fetch.appendChild($fragment);
     })
     .catch(err => console.log("Este es el catch:",err))
